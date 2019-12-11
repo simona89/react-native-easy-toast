@@ -105,7 +105,7 @@ export default class Toast extends Component {
 
         const view = this.state.isShow ?
             <View
-                style={[styles.container, { top: pos }]}
+                style={[styles.container, pos]}
                 pointerEvents="none"
             >
                 <Animated.View
